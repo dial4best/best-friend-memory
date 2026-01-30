@@ -1,0 +1,20 @@
+export const beginningTimeline = [
+  {
+    time: "2021",
+    title: "Just conversations at first",
+    description:
+      "Nothing felt important back then. It was just talking, sharing small things, and getting comfortable with silence too.",
+  },
+  {
+    time: "That summer",
+    title: "Somewhere it changed",
+    description:
+      "Without noticing, this stopped being casual. You became someone I checked in on, someone whose presence stayed.",
+  },
+  {
+    time: "Recently",
+    title: "Still here",
+    description:
+      "Not everything stayed the same, but the important parts did. And that’s what matters.",
+  },
+]
