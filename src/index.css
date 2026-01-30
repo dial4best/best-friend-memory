@@ -5,3 +5,18 @@ body {
   color: #2d2a26;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
+
+/* Tailwind v4 @apply helpers – editor may warn, build is fine */
+
+/* Emotional typography helpers */
+.heading {
+  @apply text-4xl md:text-6xl leading-relaxed tracking-wide;
+}
+
+.subheading {
+  @apply text-2xl md:text-3xl mt-6 leading-relaxed;
+}
+
+.whisper {
+  @apply text-lg md:text-xl italic mt-6 opacity-80;
+}
